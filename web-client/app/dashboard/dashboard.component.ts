@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   moduleId: module.id,
-  template: '<h1>My Dashboard</h1>'
+  template: '<list-view>list view component</list-view><tile-view>tile view component<tile-view/>'
 })
 
 export class DashboardComponent { }
