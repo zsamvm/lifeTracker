@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'list-view',
-  template: 'placeholder for list-view'
+  template: '<p>placeholder for list-view</p>'
 })
 
 export class ListViewComponent { }
