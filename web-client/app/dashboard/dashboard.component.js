@@ -15,7 +15,8 @@ var DashboardComponent = (function () {
     DashboardComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            template: '<list-view>list view component</list-view><tile-view>tile view component</tile-view>',
+            selector: 'dashboard-component',
+            templateUrl: 'dashboard.component.html',
             styleUrls: ['dashboard.component.scss']
         }), 
         __metadata('design:paramtypes', [])
