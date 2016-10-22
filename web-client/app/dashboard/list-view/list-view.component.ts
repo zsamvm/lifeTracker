@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'list-view',
-  template: '<p>placeholder for list-view</p>'
+  moduleId: module.id,
+  selector: 'list-view-component',
+  templateUrl: 'list-view.component.html',
+  styleUrls: ['list-view.component.scss']
 })
 
 export class ListViewComponent { }
