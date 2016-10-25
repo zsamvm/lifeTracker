@@ -3,8 +3,8 @@ import { CommonModule }      from '@angular/common';
 
 import { DashboardComponent } from './dashboard.component';
 
-import { ListViewComponent } from './list-view/list-view.component';
-import { TileViewComponent } from './tile-view/tile-view.component';
+import { ListViewComponent } from './components/list-view/list-view.component';
+import { TileViewComponent } from './components/tile-view/tile-view.component';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 
