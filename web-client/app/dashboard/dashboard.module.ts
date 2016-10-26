@@ -5,6 +5,7 @@ import { DashboardComponent } from './dashboard.component';
 
 import { ListViewComponent } from './components/list-view/list-view.component';
 import { TileViewComponent } from './components/tile-view/tile-view.component';
+import { TileComponent } from './components/tile/tile.component';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 
@@ -13,7 +14,8 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
   declarations:      [
     DashboardComponent,
     ListViewComponent,
-    TileViewComponent
+    TileViewComponent,
+    TileComponent
   ]
 })
 
