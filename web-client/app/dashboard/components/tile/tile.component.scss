@@ -1,4 +1,25 @@
 /* SASS file for tile-view component */
+
+$thumbnail-size: 100px;
+
 .tile-thumbnail {
+  height: $thumbnail-size;
+  width: $thumbnail-size;
   border-radius: 10px;
+}
+
+i {
+  font-size: 64px;
+  margin-left: 7px;
+}
+
+hr {
+  width: $thumbnail-size;
+  margin-left: -6px;
+  margin-top: 6px;
+  margin-bottom: 1px;
+}
+
+p {
+  text-align: center;
 }

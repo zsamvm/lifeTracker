@@ -13,9 +13,14 @@ import { DataNameEnum } from '../../../types/data-name-enum';
 })
 
 export class TileComponent {
-  @Input() dataName: DataNameEnum;
+  tileName: string;
+  tileIcon: string;
+
+  @Input()
+  set dataName(dataName: DataNameEnum) {
+    this.tileName = this.getTileDisplayInfoService.getTileName(dataName);
+    this.tileIcon = this.getTileDisplayInfoService.getTileIcon(dataName);
+  }
 
   constructor(private getTileDisplayInfoService: GetTileDisplayInfoService) { }
-
-  tileName: string = this.getTileDisplayInfoService.getTileName(this.dataName);
 }
